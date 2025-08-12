@@ -1,0 +1,1 @@
+This site contains affiliate links. If you purchase products or services through these links, we may earn a commission at no additional cost to you. All opinions expressed are our own and we only recommend products and services we believe will provide value to users.
