@@ -1,0 +1,36 @@
+{
+  "affiliates": {
+    "amazon": {
+      "mode": "append",
+      "append": "tag=[AMAZON_TAG]&subid={SUBID}"
+    },
+    "humble": {
+      "mode": "template",
+      "template": "[HUMBLE_TEMPLATE]"
+    },
+    "fanatical": {
+      "mode": "template",
+      "template": "[FANATICAL_TEMPLATE]"
+    },
+    "greenmangaming": {
+      "mode": "template",
+      "template": "[GMG_TEMPLATE]"
+    },
+    "tcgplayer": {
+      "mode": "template",
+      "template": "[TCG_TEMPLATE]"
+    },
+    "shockbyte": {
+      "mode": "static",
+      "link": "[SHOCKBYTE_LINK]"
+    },
+    "bisect": {
+      "mode": "static",
+      "link": "[BISECT_LINK]"
+    }
+  },
+  "defaults": {
+    "subid": "site-{PAGE}-{BUTTON}",
+    "utm": "utm_source=nightghoul&utm_medium=site&utm_campaign=deals"
+  }
+}
